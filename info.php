@@ -10,14 +10,14 @@
 </head>
 <body>
     <?php
-    $name = $_POST['fullname'];
-    $mail = $_POST['email'];
-    $mobile = $_POST['mobile'];
-    $web = $_POST['website'];
-    $companyname = $_POST['companyname'];
-    $Designation = $_POST['Designation'];
-    $id = $_POST['id'];
-    $DOB = $_POST['DOB'];
+    $name = $_GET['fullname'];
+    $mail = $_GET['email'];
+    $mobile = $_GET['mobile'];
+    $web = $_GET['website'];
+    $companyname = $_GET['companyname'];
+    $Designation = $_GET['Designation'];
+    $id = $_GET['id'];
+    $DOB = $_GET['DOB'];
 
     ?>
 
